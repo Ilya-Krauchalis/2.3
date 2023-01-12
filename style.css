@@ -1,0 +1,249 @@
+@font-face {
+    font-family: PTSansCaption-Regular;
+    src: url('fonts/PTSans/PTSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: Parangon530C;
+    src: url("fonts/Parangon/Paragon-Regular.otf");
+}
+
+@font-face {
+    font-family: Futura;
+    src: url("fonts/Futura/futura\ medium\ bt.ttf");
+}
+
+@font-face {
+    font-family: HelveticaBold;
+    src: url("fonts/HelveticaNeue/Helvetica\ Neue\ Condensed\ Bold.ttf");
+}
+
+@font-face {
+    font-family: HelveticaRoman;
+    src: url("fonts/HelveticaNeue/hel");
+}
+
+@font-face {
+    font-family: MyraidPro;
+    src: url("fonts/MyriadPro/MYRIADPRO-REGULAR.OTF");
+}
+
+@font-face {
+    font-family: Exo2Bold;
+    src: url("fonts/Exo2/static/Exo2-Bold.ttf");
+}
+
+@font-face {
+    font-family: FuturaMdBT;
+    src: url('fonts/Futura/Futura\ Bold\ font.ttf');
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1224px;
+    margin: 0 auto;
+}
+
+ul {
+    text-decoration: none;
+}
+
+/*---------------Header Start---------------*/
+
+.background_image {
+    background: url("img/background.png") no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 125px;
+}
+
+.background_image h1 {
+    font-family: Parangon530C;
+    font-size: 48px;
+    letter-spacing: 0.03em;
+    line-height: 70px;
+    margin-bottom: 25px;
+}
+
+.zagolovok {
+    padding-top: 195px;
+}
+
+.background_image .zagolovok p {
+    margin: 0 auto;
+    font-family: PTSansCaption-Regular;
+    font-size: 24px;
+    width: 850px;
+    letter-spacing: 0.05em;
+    line-height: 35px;
+}
+
+.progress{
+    margin-top: 60px;
+    margin-left: 177px;
+    display: flex;
+    gap: 58px;
+}
+
+.progress div {
+    width: 251.46px;
+    border: 1px solid white;
+    padding: 48px 0 38px 0;
+}
+
+.background_image .progress h2 {
+    font-family: Parangon530C;
+    font-size: 48px;
+}
+
+.background_image .progress p {
+    font-family: PTSansCaption-Regular;
+    font-size: 18px;
+}
+
+/*--------header end----------*/
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    margin-top: 34px;
+    margin-left: 465px;
+    font-family: Futura;
+    font-size: 30px;
+    gap: 40px;
+    letter-spacing: 0.03em;
+}
+.navigation ul li:nth-child(2){
+    width: 150px;
+}
+
+.glavnaya {
+    color: orange;
+}
+
+.line {
+    border: gray solid 1px;
+    margin-top: 28px;
+}
+
+/*---------------main start---------------*/
+.glav {
+    display: flex;
+}
+
+.glav h2 {
+    flex-direction: row;
+    font-family: HelveticaBold;
+    font-size: 48px;
+    margin: 210px 50px 0 328px;
+    letter-spacing: 0.02em;
+}
+
+.text1 {
+    background: url("img/WE.png") no-repeat;
+    width: 900px;
+    height: 247px;
+    margin: 128px 0px 163px 90px;
+}
+
+.glav p {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    padding: 40px 0 0 80px;
+    line-height: 30px;
+}
+
+.contact_info {
+    display: flex;
+    gap: 85px;
+    margin-left: 334px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact_info p {
+    font-weight: bold;
+    font-size: 20.45px;
+    margin: 5px 0 7px 0;
+}
+
+.contact_info .info_block1 {
+    width: 400px;
+    height: 330px;
+    font-size: 15.34px;
+    letter-spacing: 0.05em;
+}
+
+.contact_info .info span {
+    line-height: 25px;
+}
+.info_block2 span {
+    margin-top: 19px;
+    letter-spacing: 0.05em;
+}
+
+.info_block3 {
+    background: #f6ae48;
+    color: white;
+    margin-left: -62px;
+    margin-top: -13px;
+    padding: 14px 0 0 21px;
+}
+
+.info_block3 p {
+    margin-top: 18px;
+}
+
+.arrow {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow span {
+    padding: 5px;
+    border: 2px solid white;
+    width: 120px;
+    font-family: MyraidPro;
+    font-size: 18px;
+    text-align: center;
+}
+
+.arrow img {
+    padding-top: 3px;
+    margin-right: 40px;
+    width: 25px;
+    height: 25px;
+}
+
+.credo {
+    margin-top: 250px;
+    background: url('img/background2.png') no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 156px;
+}
+
+.credo h2 {
+    padding-top: 118px;
+    font-family: Exo2Bold;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+}
+
+.credo p {
+    margin-top: 60px;
+    font-size: 24px;
+    font-family: HelveticaRoman;
+    letter-spacing: 0.034em;
+    line-height: 35px;
+}
